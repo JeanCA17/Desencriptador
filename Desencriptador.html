@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+        <meta charset="UTF-8">
+        <title>Desencriptador</title>
+        <link rel="stylesheet" href="./desencriptador.css">
+        <script type="text/javascript" src="./desencriptador.js"></script>
+    </head>
+    <body>
+        <header>
+            <div  class="letra_titulo">
+                <h1><img src="./Vector.png"></h1>
+            </div>    
+        </header>
+
+        <main  class="main">
+            <div>
+                <h2 class="titulo">Ingrese el texto aqui</h2>
+                <button class="reset" id="reset" type="submit" onclick="reset(this)">!Reset</button>
+            </div>
+            <div class="muñeco">
+                <img id="muñeco_imagen" src="./Muneco.png" class="muñeco">
+            </div>
+            <div class="candados">
+                <img id="candado_cerrado" src="./candado1.png" class="candado">
+                <img id="candado_abierto" src="./candado2.png" class="candado">
+            </div>
+            <div >   
+                <textarea class="areadetexto" name="textarea" id="palabra" cols="30" rows="5"></textarea><textarea type="text" id="resultado" name="textarea" class="texto_resultado"   ></textarea>
+            </div>
+            
+        </main>
+        <footer class="botones">
+            <div>
+                <label class="label">⚠ Utilice solo letras minusculas y sin acentuar!</label>
+            </div>
+            <div class="botones">
+                <button  id="encriptar" class="encriptar" type="submit" onclick="encriptar(this)">Encriptar!</button>
+                <button class="desencriptar" type="submit" onclick="desencriptar(this)">Desencriptar!</button>
+            </div>
+            <div>
+                <p id="texto_inicio" class="texto_muñeco">Ingrese el texto que desea encriptar</p>
+                <p id="texto_encriptar" class="texto_candado">Texto Encriptado</p>
+                <p id="texto_desencriptado" class="texto_2">Texto Desencriptado</p>
+                <button id="boton_copiar" class="copiar" type="submit" onclick="copiar(this)">!Copiar</button>
+            </div>
+        </footer>
+    </body>
+</html>

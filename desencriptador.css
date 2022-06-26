@@ -1,0 +1,256 @@
+header{
+    width: 940px;
+    margin: 0 auto;
+}
+.letra_titulo{
+   padding: 20px 0;
+}
+
+.main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.reset{
+   border: 2px solid #000000;
+   border-radius: 25px;
+   font-size: 20px;
+   background-color: #cccccc; 
+  position: relative;
+  left: 350px;
+  bottom: 50px;
+}
+
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #215272;
+    padding: 0 80px;
+    
+}
+
+
+
+.areadetexto{
+    font-size: 22px;
+    border: 2px solid #215272;
+    border-radius: 25px;
+    text-transform: lowercase;
+    margin: 20px 50px;
+    text-align: center;
+    padding: 25px 0px;
+    text-transform: lowercase;
+}
+
+.candado{
+    width: 210px;
+    position: absolute;
+    margin-left: 675px;
+    display: none;
+}
+
+.muñeco{
+    position: absolute;
+    margin-left: 320px;
+   width: 270px;
+    
+}
+
+
+.botones{
+    width: 940px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.botones2{
+    padding: 25px 0px;
+}
+
+
+
+.encriptar{
+    border: 2px solid #000000;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #1566a9;
+    color: white;
+    padding: 0 50px;    
+}
+
+.desencriptar{
+    border: 2px solid #000000;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #cccccc;
+    padding: 0 50px;
+
+}
+
+.texto_resultado{
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 280px;
+    border: white;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.texto_muñeco{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #215272;
+    padding: 0 80px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 40px;
+    
+}
+
+.texto_candado{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #215272;
+    padding: 0 80px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 40px;
+    display: none;
+}
+
+.texto_2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #215272;
+    padding: 0 80px;
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 40px;
+    display: none;
+}
+
+.copiar{
+    border: 2px solid #000000;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #1566a9;
+    color: white;
+    padding: 0 50px; 
+    margin-left: 700px;
+    
+}
+
+/* aqui empieza responsive */
+
+@media (max-width:768px){
+
+    .titulo{
+        padding: 0 0;
+        display: flex;
+        width: 400px;
+    }
+
+    .letra_titulo{
+        width: 400px;
+    }
+    .main{
+        width: 400px;
+    }
+    .reset{
+        left: 0px;
+        bottom: 0px;
+        
+    }
+
+    .areadetexto{
+        margin: 0 0;
+        padding: 0 0;
+        display: flex;
+        text-transform: lowercase;
+        width: 300px;
+        height: 150px;
+
+
+    }
+
+    .muñeco{
+        display: none;
+    }
+
+    .label{
+        margin-left: 0;
+    }
+
+    .botones{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+
+    }
+
+    .encriptar{
+        width: 250px;  
+        
+    }
+
+    .desencriptar{
+        width: 250px;
+    }
+
+    .texto_resultado{
+        margin-left: 0;
+        margin-top: 170px;
+        width: 300px;
+        
+    }
+
+    .copiar{
+        margin-left: 15px;
+        width: 250px;
+        margin-top: 100px;
+    }
+
+    .texto_muñeco{
+        margin-left: 0px;
+        padding: 0 0;
+    }
+
+    .texto_2{
+        padding: 0 70px;    
+        margin-top: 80px;
+        margin-left: 0;
+    }
+
+    .texto_candado{
+        padding: 0 70px;    
+        margin-top: 80px;
+        margin-left: 0;
+    }
+
+    .candados{
+        display: none;
+        margin-left: 0;
+        
+    }
+
+    .muñeco{
+        margin-left: 0;
+    }
+
+    .header{
+        width: 400px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
